@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Raleway', sans-serif;
+    }
+/*
+
+Start of Navbar
+
+*/
+.bg-image{
+background: url(".//photos/https\ Private\ events\ background.jpg") no-repeat center center/cover;
+height: 220vh;
+position: relative;
+}
+
+.overlay{
+position: absolute;
+background: rgba(0,0,0,0.7);
+height: 220vh;
+width: 100%;
+color: white;
+}
+
+#navbar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 250px;
+  max-width: 1060px;
+  position: fixed;
+
+}
+#navbar:scroll{
+
+}
+#navbar ul{
+  margin: 0 auto;
+  width: 100%;
+
+ 
+}
+#navbar li{
+  display: inline;
+  padding: 0 10px;
+   width: 100%;
+}
+#navbar li a{
+  text-decoration: none;
+  color: white;
+  padding-bottom: 5px;
+}
+.navbar ul li a.current {
+  border-bottom: 1px solid #fff;}
+
+#navbar img{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+/*paragraph section*/
+.body-wrapper{
+  margin: 0 200px;
+  padding-top: 250px;
+}
+.information{
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding-bottom: 20px;
+}
+.information h1{
+  margin-bottom: 20px;
+}
+.information p{
+  padding: 10px;
+}
+/*form information*/
+
+table.form{
+  box-sizing: content-box;
+  display: table table-cell;
+}
+label{
+  display: block;
+  padding-bottom: 4px;
+}
+td{
+  padding: 10px;;
+}
+select{
+  width: 10vw;
+}
+ #hear-about select {
+  width: 15vw;
+}
+input{
+ width: 15vw;
+}
+.details-header h2{
+  padding: 40px 0;
+}
+/*footer*/
+
+footer{
+  height: 33vh;
+  width: 100%;
+  background: url(../photos/Footer_Background01.png) no-repeat center center/cover;
+color: rgb(66, 66, 66);
+}
+.footer-info{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.footer-info .button-footer a{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 15px auto;
+  background-color: rgb(66, 66, 66);
+  
+
+}
+
+.footer-info p{
+  display: block;
+  margin: 20px auto;
+
+}
+.navbar-footer ul {
+  display: flex;
+  margin-top: 15px;
+}
+.navbar-footer ul li{
+list-style: none;
+}
+.navbar-footer a{
+  color: rgb(66, 66, 66);
+  padding: 5px 5px;
+  text-decoration: underline;
+  font-size: 14px;
+}
+.btn-footer{
+  padding: 15px 25px;
+  background-color: rgb(66,66,66);
+  color: white;
+  margin-top: 40px;
+  margin-left: 14vw;
+}
+
+  </style>
+</head>
+<body>
+  <div class="bg-image">
+    <div class="overlay">
+    <header class="hero-3">
+      <div class="navbar" id="navbar">
+      <h1 class="logo"><a href="index.html">
+        <img src="./photos/g and g.png" alt="logo">  
+     </a></h1>
+      <nav>
+        <ul>
+          <li><a href="#menu">menu</a></li>
+          <li><a href="reservations.html">reservations</a></li>
+          <li><a href="index.html#about">about</a></li>
+          <li><a href="https://onelink.quickgifts.com/merchant/girl-and-the-goat-chicago/">gift cards</a></li>
+          <li><a href="#catering">catering</a></li>
+          <li><a class="current" href="#private-events">private events</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+    <div class="body-wrapper">
+    <section class="information">
+      <h1>PRIVATE EVENTS</h1>
+      <p>The “Underground Goat” opened on December 1, 2010 and has been catering to a wide variety of special events from business meetings to engagements and everything in between ever since. The UG can accommodate up to 24 guests seated around one large table and up to 26 guests seated around two tables.</p>
+      <p>The UG is not your typical private dining space.  You and your guests will be led downstairs, through the restaurant and into the “staff only” halls of the Goat. Once you’ve arrived, you’ll find a cozy and candle lit room that echoes the casual, rustic atmosphere of the main dining room. It is also home to the amazing selection of our wines and has its own sound & lighting system that can be adjusted to fit each party’s needs.</p>
+      <p>You can choose to begin your evening with a beverage of your choice: beer, wine, champagne or a signature cocktail. Once dinner begins your server will guide you and your guests through the culinary experience ahead! Your family style menu includes 13 dishes created by Chef Stephanie and designed to showcase the best of our seasonally-changing menu, which will always take into account any dietary needs.</p>
+      <p>We hope you’ll make a night out of it, and would love to have you begin your evening any time after the doors open at 4:30pm.</p>
+      <p>Please contact us below to find out more details and to book your next event!</p>
+    </section>
+    <table class="form">
+      <tbody>
+        <tr class="row contact-header">
+          <td class="colspan-2">
+            <h2>
+              Your Contact Information
+            </h2>
+          </td>
+        </tr>
+        <tr class="row first-name">
+          <td>
+<label for="td-first-name">First name</label>
+<input type="text" id="td-first-name">
+          </td>
+          <td>
+            <label for="td-last-name">Last Name</label>
+            <input type="text" id="td-last-name">
+          </td>
+        </tr> 
+        <tr class="row email-address">
+          <td class="colspan-2">
+            <label for="email-address">Email Address</label>
+            <input type="text" id="email-address"name="email-address">
+          </td>
+        </tr>
+        <tr class="row phone-number">
+          <td>
+            <label for="phone-number">Phone Number</label>
+            <input type="text" id="phone-number" name="phone-number">
+          </td>
+          <td class="extension">
+        <label for="ext">Ext.</label>
+        <input type="text" id="ext">
+
+          </td>
+        </tr>
+<tr class="row company">
+  <td class="colspan-2">
+    <label for="company">Company</label>
+    <input type="text" id="company" name="text">
+  </td>
+</tr>
+   <tr class="details-header">'
+    <td class="colspan-2">
+      <h2>Your Event Details</h2>
+    </td>
+   </tr>
+   <tr class="row event-details">
+    <td class="colspan-2">
+      <label for="event-details">Nature of this Event <i>(e.g., Birthday Party or Business Dinner)</i></label>
+      <input type="text" id="event-details"name="text">
+    </td>
+   </tr>
+   <tr class="event-date">
+    <td class="colspan-2">
+      <label for="event-date">Event Date</label>
+      <input type="date" id="event-date" name="event-date"
+       value="2022-10-24"
+       min="2021-01-01" max="2040-12-31">
+    </td>
+   </tr>
+    <tr class="row time">
+      <td>
+        <label for="start-time">Start Time:</label>
+
+        <select name="start-time" id="start-time">
+          <option value="10">10 AM</option>
+          <option value="11">11 AM</option>
+          <option value="12">12 PM</option>
+          <option value="1">1 PM</option>
+          <option value="2">2 PM</option>
+          <option value="3">3 PM</option>
+          <option value="4">4 PM</option>
+          <option value="5">5 PM</option>
+          <option value="6">6 PM</option>
+          <option value="7">7 PM</option>
+          <option value="8">8 PM</option>
+          <option value="9">9 PM</option>
+          <option value="10">10 PM</option>
+          <option value="11">11PM</option>
+          
+        </select> 
+      </td>
+      <td>
+        <label for="end-time">End Time:</label>
+
+        <select name="start-time" id="start-time">
+    
+          <option value="11">11 AM</option>
+          <option value="12">12 PM</option>
+          <option value="1">1 PM</option>
+          <option value="2">2 PM</option>
+          <option value="3">3 PM</option>
+          <option value="4">4 PM</option>
+          <option value="5">5 PM</option>
+          <option value="6">6 PM</option>
+          <option value="7">7 PM</option>
+          <option value="8">8 PM</option>
+          <option value="9">9 PM</option>
+          <option value="10">10 PM</option>
+          <option value="11">11 PM</option>
+          <option value="12">12 AM</option>
+          <option value="1">1 AM</option>
+          <option value="2">2 AM</option>
+
+
+        </select> 
+      </td>
+    </tr>
+    <tr class="row number-people">
+      <td class="colspan-2">
+        <label for="people">Number of people</label>
+          <input type="text" id="people" name="text">
+      </td>
+    </tr>
+    <tr class="row textarea">
+      <td class="colspan-2">
+        <label for="comments">Is there any Additional comments you would like to add?</label>
+        <textarea name="textarea" id="comments" cols="30" rows="4"></textarea>
+      </td>
+    </tr>
+    <tr class="row hear-about"></tr>
+    <td class="colspan-2">
+      <label for="hear-about">How did you hear about us?</label>
+      <select name="hear-about" id="hear-about">
+      <option value="select-option">Select an Option</option>
+      <option value="event-up">EventUp</option>
+      <option value="instagram">Instagram</option>
+      <option value="facebook">Facebook</option>
+      <option value="venues-by-tripleseat">Venues by Tripleseat</option>
+      <option value="search-engine">Search Engine</option>
+      <option value="email">Email</option>
+      <option value="others">Others</option>
+      <option value="cubs">Cubs</option>
+      <option value="hikory-street-capital">Hickory Street Capital</option>
+      <option value="hotel-zachary">Hotel Zachary</option>
+      <option value="other-boka-restaurant">Other Boka Restaurant</option>
+      <option value="steppenwolf">Steppenwolf</option>
+      <option value="refefral">Referral</option>
+    </select>
+    </td>
+    <tr class="row submit">
+      <td class="colspan-2">
+        <button value="submit">submit</button>
+      </td>
+    </tr>
+      </tbody>
+    </table>
+  </div>
+  </div>
+</div>
+<footer>
+  <div class="footer-info">
+    <div class="column"></div>
+    <div class="row">
+    <p>join the herd, and our mailing-list!</p>
+    <div class="button-footer">
+    <a href="https://mailchi.mp/girlandthegoat/newsletter" class="btn-footer">sign me up!</a></div>
+  <nav class="navbar-footer">
+    <ul>
+          <li><a href="https://www.cabrachicago.com/">CABRA CEVICHERIA</a></li>
+          <li><a href="https://www.bokagrp.com/">BOKA RESTAURANT GROUP</a></li>
+          <li><a href="https://www.littlegoatchicago.com/">LITTLE GOAT DINER</a></li>
+          <li><a href="https://www.duckduckgoatchicago.com/">DUCK DUCK GOAT</a></li>
+          <li><a href="https://www.goatgroupcatering.com/">GOAT GROUP CATERING</a></li>
+          <li><a href="https://www.baobingchi.com/">BAOBING</a></li>
+          <li><a href="https://www.sugargoatsweets.com/">SUGARGOAT</a></li>
+    </ul>
+  </nav>
+  </div>
+  </div>
+  </footer>
+</body>
+</html>

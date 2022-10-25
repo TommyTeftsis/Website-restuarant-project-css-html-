@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+ header {
+    display: flex;
+    width: 100%;
+  
+    justify-content: center;
+    background: url("../photos/Burnt+Wall.jpg") no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    animation: slide 10s infinite;
+  transform: 3s ease;}
+    
+
+  
+  body{
+    background-color: rgb(253, 249, 240);
+  }
+
+header h1 img{
+  width: 100%;
+  height: auto;
+  
+
+}
+.header-nav-wrapper{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ justify-content: center;
+ height:30vh;
+ width: 80vw;
+ margin: 0 auto;
+ position: fixed;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navbar ul{
+  margin-top: -30px;
+  width: 100%;
+}
+.navbar li{
+  display: inline;
+  padding-bottom: 10px;
+}
+ .navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16.8px;
+  padding: 0 10px;
+  line-height: normal;
+ font-family: 'Raleway', sans-serif;
+ }
+ 
+  .navbar ul li a.current {
+  border-bottom: 1px solid #fff;
+ 
+
+}
+ @keyframes slide{
+  0%{background-image: url(../photos/Burnt+Wall.jpg);}
+
+  33%{background-image: url(../photos/GALDOPHOTO+GATG+15Jun2021+HG002.jpg);}
+ 
+67% {background-image: url(../photos/GALDOPHOTO_29July2020_Big+Goat_X2HG5074.jpg);}
+}
+.container{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+}
+.information-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 66vh;
+  background-color: rgb(253, 249, 240);
+}
+.child-row{
+  padding: 0 70px;
+  margin: 0 40px;
+}
+.child-row h1{
+  margin-bottom: 40px;
+  font-size: 22.8px;
+}
+.child-row p{
+  line-height: 40px;
+}
+#bar-break{
+  min-height: 100vh;
+  width: 100%;
+  background: url('../photos/Girl-and-the-Goat\ bar.jpg') no-repeat center center/cover;
+}
+#about{
+  min-height: 80vh;
+  width: 100%;
+  background-color:rgb(253, 249, 240);
+}
+.flex-columns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-columns .row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.flex-columns .column{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.column-2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.column-2 h1{
+  margin-bottom: 25px;
+}
+.column-1{
+  display: flex;
+  justify-content: center;
+}
+.column-1 img{
+  width: 75%;
+  height: auto;
+}
+
+.column-2 p{
+  line-height: 30.23px;
+  width: 75%;
+}
+#food-break{
+ min-height: 66vh;
+ width: 100%;
+}
+#food-break img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 66vh;
+  width: 100%;
+  object-fit: cover;
+}
+#happenings{
+  height: 100vh;
+  width: 100%;
+ 
+}
+#header-happenings h3{
+  display: flex;
+  justify-content: center;
+  padding: 65px;
+  align-items: center;
+  font-size: 56px;
+}
+.column-2 h4{
+  margin-bottom: 25px;
+}
+#happenings .column-1 img{
+  width: 75%;
+  height: 70vh;
+  margin-bottom: 85px;
+  object-fit: cover;
+}
+.btn{
+  padding: 15px 25px;
+  background-color: rgb(0,0,0);
+  color: white;
+  margin-top: 40px;
+  margin-left: 14vw;
+}
+.column-2 a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+footer{
+  height: 33vh;
+  width: 100%;
+  background: url(../photos/Footer_Background01.png) no-repeat center center/cover;
+color: rgb(66, 66, 66);
+}
+.footer-info{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.footer-info .button-footer a{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 15px auto;
+  background-color: rgb(66, 66, 66);
+  
+
+}
+
+.footer-info p{
+  display: block;
+  margin: 20px auto;
+
+}
+.navbar-footer ul {
+  display: flex;
+  margin-top: 15px;
+}
+.navbar-footer ul li{
+list-style: none;
+}
+.navbar-footer a{
+  color: rgb(66, 66, 66);
+  padding: 5px 5px;
+  text-decoration: underline;
+  font-size: 14px;
+}
